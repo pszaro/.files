@@ -12,8 +12,8 @@ set -o errexit
 set -o pipefail
 
 # LIBRARY
-source lib/utilities.sh
-source lib/options.sh
+source ~/dotfiles/lib/utilities.sh
+source ~/dotfiles/lib/options.sh
 
 # EXECUTION
 if [[ -d "$HOME" ]]; then
