@@ -74,6 +74,11 @@ _powerline() {
       PS1+="\[$YELLOW\]\[$BLUE_BACKGROUND\]$(_git_stash_info)\[$NORMAL\]" # Git Stash Info.
     fi
 
+    if [[ -d .dropbox.cache ]]; then
+       readonly DROPBOX_SYMBOL=' ❌ '
+       PS1+="\[$YELLOW\]\[$BLUE_BACKGROUND\] $DROPBOX_SYMBOL \[$NORMAL\]" # Git Stas Info.
+    fi
+
     PS1+="\[$BG_EXIT\] $OS_SYMBOL \[$NORMAL\] "
   }
 
