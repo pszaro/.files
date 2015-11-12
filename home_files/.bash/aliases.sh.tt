@@ -49,12 +49,6 @@ alias dnsi="scutil --dns"
 alias dnss="sudo dscacheutil -statistics"
 alias dnsf="sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder && printf 'DNS cache cleared.\n'"
 
-# Section: [tmux](http://tmux.sourceforge.net)
-alias tsl="tmux list-sessions"
-alias tsa="tmux attach-session -t"
-alias tsk="tmux kill-session -t"
-alias tsr="tmux rename-session -t"
-
 # Section: [Homebrew](http://brew.sh)
 alias hb="brew"
 alias hbi="brew install"
@@ -76,6 +70,7 @@ alias gi="git init"
 alias gcle="git config --local --edit"
 alias gcge="git config --global --edit"
 alias gget="git config"
+alias gs="git status"
 alias gst="git status --short --branch"
 alias gl='git log --graph --pretty=format:"$(_git_log_line_format)"'
 alias gld='git log --stat --pretty=format:"$(_git_log_details_format)"'
