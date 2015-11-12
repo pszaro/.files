@@ -168,32 +168,10 @@ alias grp="git remote prune origin"
 alias bzc="tar --use-compress-program=pigz --create --preserve-permissions --bzip2 --verbose --file"
 alias bzx="tar --extract --bzip2 --verbose --file"
 
-# Section: [PostgreSQL](http://www.postgresql.org)
-alias pgi="initdb /usr/local/var/postgres"
-alias pgst="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start &"
-alias pgsp="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
-
-# Section: [Redis](http://redis.io)
-alias reds="redis-server /usr/local/etc/redis.conf &"
-alias redc="redis-cli"
-
 # Section: [Silver Surfer](https://github.com/ggreer/the_silver_searcher)
 alias agf="ag --hidden --files-with-matches --file-search-regex"
 
-# Section: [Z](https://github.com/rupa/z)
 alias ez="$EDITOR $HOME/.z"
-
-# Section: [Path Finder](http://www.cocoatech.com/pathfinder)
-alias pfo='open -a "Path Finder.app" "$PWD"'
-
-# Section: [Vim](http://www.vim.org)
-alias v="vim"
-
-# Section: [Sublime Text](http://www.sublimetext.com)
-#alias e="sublime"
-
-# Section: [Marked 2](http://marked2app.com)
-alias mo="open -a Marked\ 2"
 
 # Section: [asciinema](https://asciinema.org)
 alias cin="asciinema"
