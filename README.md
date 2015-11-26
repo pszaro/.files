@@ -15,3 +15,6 @@ List of Scripts
   - [GenReadMe.sh]:
    This script generates a dynamic README file.
 
+  - [run.sh]:
+   Main Menu
+
