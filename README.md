@@ -3,7 +3,7 @@ Introduction
 -----------------
 .files I use in my profiles
 
-### The following was inspired by Brooke Kuhlmann (https://github.com/bkuhlmann/dotfiles).
+#### The following was inspired by Brooke Kuhlmann (https://github.com/bkuhlmann/dotfiles).
                    
 GIT Repo Location
 -----------------
