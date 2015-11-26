@@ -1,3 +1,17 @@
-I am just starting out with GIT
+                   
+Introduction
+-----------------
+.files I use in my profiles
 
-# The following was inspired by Brooke Kuhlmann (https://github.com/bkuhlmann/dotfiles).
+### The following was inspired by Brooke Kuhlmann (https://github.com/bkuhlmann/dotfiles).
+                   
+GIT Repo Location
+-----------------
+https://github.com/pszaro/.files.git
+                   
+List of Scripts
+-----------------
+
+  - [GenReadMe.sh]:
+   This script generates a dynamic README file.
+
