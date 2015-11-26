@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# DESCRIPTION
+# Description: Main Menu
 #
 # Executes the command line interface.
 
@@ -12,8 +12,8 @@ set -o errexit
 set -o pipefail
 
 # LIBRARY
-source ~/dotfiles/lib/utilities.sh
-source ~/dotfiles/lib/options.sh
+source ~/dotfiles/utilities.sh
+source ~/dotfiles/options.sh
 
 # EXECUTION
 if [[ -d "$HOME" ]]; then
