@@ -15,6 +15,12 @@ List of Scripts
   - [GenReadMe.sh]:
    This script generates a dynamic README file.
 
+  - [options.sh]:
+   Defines command line prompt options.
+
   - [run.sh]:
    Main Menu
+
+  - [utilities.sh]:
+   Defines general utility functions.
 
