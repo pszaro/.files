@@ -10,6 +10,7 @@ alias tweet="~/ttytter/tweet.sh"
 alias terminal-notifier=/Applications/Utilities/terminal-notifier.app/Contents/MacOS/terminal-notifier
 alias clear-mail="> /var/mail/peter"
 alias go="~/Scripts/go.sh"
+alias todo="~/Scripts/todo.sh"
 alias cds="cd ~/Scripts"
 alias cdd="cd ~/Desktop/Dropbox"
 
