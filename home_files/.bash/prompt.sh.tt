@@ -80,6 +80,12 @@ _powerline() {
        PS1+="\[$YELLOW\]\[$BLUE_BACKGROUND\] $DROPBOX_SYMBOL \[$NORMAL\]" # Git Stas Info.
     fi
 
+    if [[ -f .todo ]]; then
+    export TODO_SYMBOL='✓ '
+    PS1+="\[$YELLOW\]\[$PURPLE_BACKGROUND\] $TODO_SYMBOL \[$NORMAL\]" # todo related
+    fi
+
+
     PS1+="\[$BG_EXIT\] $OS_SYMBOL \[$NORMAL\] "
   }
 
