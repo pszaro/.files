@@ -38,7 +38,6 @@ alias bashe="$EDITOR $HOME/.bash/env.sh"
 alias bashs="exec $SHELL"
 alias bashv="bash --version"
 alias pss='ps axu | grep --invert-match grep | grep "$@" --ignore-case --color=auto'
-alias man="gem man --system"
 
 # Section: Network
 alias sshe="$EDITOR $HOME/.ssh/config"
