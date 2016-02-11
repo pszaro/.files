@@ -7,7 +7,6 @@ export TODOTXT_DEFAULT_ACTION=ls
 alias flushdns="dscacheutil -flushcache"
 alias dropbox="cd ~/Desktop/Dropbox"
 alias tweet="~/ttytter/tweet.sh"
-alias terminal-notifier=/Applications/Utilities/terminal-notifier.app/Contents/MacOS/terminal-notifier
 alias clear-mail="> /var/mail/peter"
 alias go="~/Scripts/go.sh"
 alias todo="~/Scripts/todo.sh"
