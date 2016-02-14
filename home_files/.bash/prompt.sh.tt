@@ -87,6 +87,7 @@ _powerline() {
 
 
     PS1+="\[$BG_EXIT\] $OS_SYMBOL \[$NORMAL\] "
+    PS1+="\033]0; ${HOSTNAME}\007"; # adds hostname to terminal title
   }
 
   PROMPT_COMMAND=ps1
