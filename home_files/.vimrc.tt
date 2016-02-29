@@ -2,7 +2,7 @@
 
 set history=1000 " Keep 1000 lines of history.
 set ruler " Always show the cursor position.
-set relativenumber " Show line numbers relative to cursor where cursor number is always zero.
+"set relativenumber " Show line numbers relative to cursor where cursor number is always zero.
 
 set expandtab " Use spaces instead of tabs when indenting.
 set smarttab " Indent instead of tabbing at the beginning of a line.
